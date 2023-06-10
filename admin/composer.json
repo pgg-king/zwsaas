@@ -1,5 +1,5 @@
 {
-    "name": "rockys/ex-admin-thinkphp",
+    "name": "pengking/ex-admin-thinkphp",
     "description": "Ex-admin-thinkphp 是一个基于Ant Design of Vue + Thinkphp 开发而成后台系统构建工具，无需关注页面模板JavaScript，只用php代码即可快速构建出一个功能完善的后台系统。",
     "license": "Apache-2.0",
     "keywords": [
