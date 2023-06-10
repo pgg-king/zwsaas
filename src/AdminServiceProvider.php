@@ -1,7 +1,6 @@
 <?php
 
 namespace Tadm\service;
-
 use Tadm\service\command\InstallCommand;
 use Tadm\service\command\MigrateRollback;
 use Tadm\service\command\MigrateRun;
