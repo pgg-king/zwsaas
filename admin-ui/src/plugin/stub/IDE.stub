@@ -1,0 +1,10 @@
+<?php
+
+namespace Tadm\ui\plugin{
+/**
+{%doc%}
+ */
+class Manager{}
+}
+
+
