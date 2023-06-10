@@ -1,8 +1,6 @@
 <?php
 declare (strict_types = 1);
-
 namespace Tadm\service\command;
-
 use Symfony\Component\Filesystem\Filesystem;
 use think\console\Command;
 use think\console\Input;
@@ -11,7 +9,6 @@ use think\console\input\Option;
 use think\console\Output;
 use think\facade\Console;
 use think\facade\Db;
-
 class InstallCommand extends Command
 {
     protected function configure()

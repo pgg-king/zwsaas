@@ -21,11 +21,10 @@ class AdminServiceProvider extends Service
      */
     public function boot()
     {
-        halt(1);
         set_error_handler([$this->app->make(Error::class), 'appError']);
         Container::getInstance()->plugin->register();
         $this->updateVersion();
-        \ExAdmin\ui\Route::setObjectParamAfter(function ($name){
+        \Tadm\ui\Route::setObjectParamAfter(function ($name){
             return $this->app->make($name);
         });
     }

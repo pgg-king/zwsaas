@@ -1,8 +1,6 @@
 <?php
 declare (strict_types = 1);
-
 namespace Tadm\service\command;
-
 use Symfony\Component\Process\Process;
 use think\console\Command;
 use think\console\Input;
