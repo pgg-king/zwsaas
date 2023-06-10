@@ -1,10 +1,9 @@
 {
-    "name": "pengking/ex-admin-thinkphp",
-    "description": "Ex-admin-thinkphp 是一个基于Ant Design of Vue + Thinkphp 开发而成后台系统构建工具，无需关注页面模板JavaScript，只用php代码即可快速构建出一个功能完善的后台系统。",
+    "name": "pengking/tadm-service",
+    "description": "tadm-service 是一个基于Ant Design of Vue + Thinkphp 开发而成后台系统构建工具，无需关注页面模板JavaScript，只用php代码即可快速构建出一个功能完善的后台系统。",
     "license": "Apache-2.0",
     "keywords": [
-        "Ex-admin",
-        "ExAdmin",
+        "tadm",
         "php",
         "thinkphp",
         "admin",
@@ -13,25 +12,18 @@
     ],
     "authors": [
         {
-            "name": "rocky",
-            "email": "631670747@qq.com"
+            "name": "pengking",
+            "email": "aa.@qq.com"
         }
     ],
     "require": {
-        "php": ">=7.3.0",
-        "rockys/ex-admin-ui": "^2",
-        "topthink/think-migration": "^3",
-        "topthink/think-queue": "^3"
-    },
-    "autoload": {
-        "psr-4": {
-            "ExAdmin\\thinkphp\\": "src"
-        }
+        "php": ">=7.3.0"
+
     },
     "extra": {
         "think": {
             "services": [
-                "ExAdmin\\thinkphp\\AdminServiceProvider"
+                "tadm\\service\\AdminServiceProvider"
             ]
         }
     }

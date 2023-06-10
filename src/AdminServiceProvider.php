@@ -22,7 +22,7 @@ class AdminServiceProvider extends Service
      */
     public function boot()
     {
-
+        halt(1);
         set_error_handler([$this->app->make(Error::class), 'appError']);
         Container::getInstance()->plugin->register();
         $this->updateVersion();
