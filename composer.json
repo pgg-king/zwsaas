@@ -1,15 +1,10 @@
 {
     "name": "pengking/tadm-service",
-    "description": "tadm-service 是一个基于Ant Design of Vue + Thinkphp 开发而成后台系统构建工具，无需关注页面模板JavaScript，只用php代码即可快速构建出一个功能完善的后台系统。",
+    "description": "tadm-service 后台模板。",
     "license": "Apache-2.0",
     "version": "1.0.0",
     "keywords": [
-        "tadm",
-        "php",
-        "thinkphp",
-        "admin",
-        "CURD",
-        "ui"
+        "tadm"
     ],
     "authors": [
         {
